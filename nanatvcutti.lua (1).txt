@@ -12141,21 +12141,21 @@ function sendWebhook(eventName, extraData)
 end
 
 --// Sent flags for each checker
-local sentDarkbeard = true
-local sentCursedCaptain = true
-local sentRipIndra = true
-local sentDoughKing = true
-local sentCakePrince = true
+local sentDarkbeard = false
+local sentCursedCaptain = false
+local sentRipIndra = false
+local sentDoughKing = false
+local sentCakePrince = false
 local sentTyrantSkies = false
-local sentSoulReaper = true
-local sentEliteHunter = true
-local sentMirage = true
-local sentKitsune = true
-local sentPrehistoric = true
-local sentFullMoon = true
-local sentNearFullMoon = true
-local sentLowPlayer = true
-local sentFruit = true
+local sentSoulReaper = false
+local sentEliteHunter = false
+local sentMirage = false
+local sentKitsune = false
+local sentPrehistoric = false
+local sentFullMoon = false
+local sentNearFullMoon = false
+local sentLowPlayer = false
+local sentFruit = false
 local lastBerryKey = ""
 
 --// Elite Hunter Only (World 3)
@@ -12513,4 +12513,5 @@ task.spawn(function()
         end
     end
 end)
+
 
