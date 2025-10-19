@@ -95,27 +95,27 @@ _G.Settings = {
 	Main = {
 		["Select Weapon"] = "Melee",
 		["Farm Mode"] = "Normal",
-		["Auto Farm"] = false,
-		["Auto Farm Fast"] = false,
+		["Auto Farm"] = true,
+		["Auto Farm Fast"] = true,
 		["Selected Mastery Mode"] = "Quest",
-		["Auto Farm Fruit Mastery"] = false,
-		["Auto Farm Gun Mastery"] = false,
+		["Auto Farm Fruit Mastery"] = true,
+		["Auto Farm Gun Mastery"] = true,
 		["Selected Mastery Sword"] = nil,
-		["Auto Farm Sword Mastery"] = false,
+		["Auto Farm Sword Mastery"] = true,
 		["Selected Mob"] = nil,
-		["Auto Farm Mob"] = false,
+		["Auto Farm Mob"] = true,
 		["Selected Boss"] = nil,
-		["Auto Farm Boss"] = false,
-		["Auto Farm All Boss"] = false
+		["Auto Farm Boss"] = true,
+		["Auto Farm All Boss"] = true
 	},
 	Event = {},
 	Farm = {
-		["Auto Elite Hunter"] = false,
-		["Auto Elite Hunter Hop"] = false,
+		["Auto Elite Hunter"] = true,
+		["Auto Elite Hunter Hop"] = true,
 		["Selected Bone Farm Mode"] = "Quest",
-		["Auto Farm Bone"] = false,
-		["Auto Random Surprise"] = false,
-		["Auto Pirate Raid"] = false,
+		["Auto Farm Bone"] = true,
+		["Auto Random Surprise"] = true,
+		["Auto Pirate Raid"] = true,
 		["Auto Farm Observation"] = false,
 		["Auto Observation V2"] = false,
 		["Auto Musketeer Hat"] = false,
@@ -342,20 +342,20 @@ _G.Settings = {
 		["Active Race V3"] = false,
 		["Active Race V4"] = true,
 		["Walk On Water"] = true,
-		["No Clip"] = false
+		["No Clip"] = true
 	},
 	Fruit = {
-		["Auto Buy Random Fruit"] = false,
+		["Auto Buy Random Fruit"] = true,
 		["Store Rarity Fruit"] = "Common - Mythical",
-		["Auto Store Fruit"] = false,
-		["Fruit Notification"] = false,
-		["Teleport To Fruit"] = false,
-		["Tween To Fruit"] = false
+		["Auto Store Fruit"] = true,
+		["Fruit Notification"] = true,
+		["Teleport To Fruit"] = true,
+		["Tween To Fruit"] = true
 	},
 	Misc = {
-		["Hide Chat"] = false,
-		["Hide Leaderboard"] = false,
-		["Highlight Mode"] = false
+		["Hide Chat"] = true,
+		["Hide Leaderboard"] = true,
+		["Highlight Mode"] = true
 	}
 };
 (getgenv()).Load = function()
@@ -12052,3 +12052,4 @@ for _, v in pairs(resultNormal) do
 	end;
 end;
 print("Script Loaded!");
+
